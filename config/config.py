@@ -27,7 +27,7 @@ import os
 # -----------------
 # It's recommended to store your API key as an environment variable for security.
 # However, for a direct replacement, you can place it here.
-GOOGLE_API_KEY = "AIzaSyA72Zz_on4cjtL-TvsPad3-22bXqmaQQhY" # 👈 Replace with your actual key
+GOOGLE_API_KEY = "" # 👈 Replace with your actual key
 genai.configure(api_key=GOOGLE_API_KEY)
 gemini_model_name = "gemini-1.5-pro-latest" 
 
